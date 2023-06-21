@@ -19,6 +19,7 @@ int main(){
 //function definition
 void Indian(){
     printf("Namaste! :) \n");
+    French();// first it reads main function then comes to second function a prints both namste and bonjour
 }
 void French(){
     printf("Bonjour! :)");
