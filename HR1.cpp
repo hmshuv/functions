@@ -10,7 +10,7 @@ int main(){
     if(ch == 'i'){
         Indian();
     }
-    else{ 
+    else if(ch =='f'){ 
         French(); 
         }
 
