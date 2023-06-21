@@ -1,24 +1,25 @@
-#include<stdio.h>// write two functions to print hello and bye
-
-// function declaration/ prototype (1)
-void printHello();
-void printBye();
+#include<stdio.h>
+//function prototype
+void Indian();
+void French();
 
 int main(){
-    printHello();//funtion call (3)
-    printBye();
-    
+    printf("Enter nationality i for Indian & f for french: ");
+    char ch;
+    scanf("%c", &ch);
+    if(ch == 'i'){
+        Indian();
+    }
+    else{ 
+        French(); 
+        }
 
-return 0;
-
+    return 0;
 }
-// funtion definition (2)
-void printHello(){
-    printf("Hello \n");
- }
- void printBye(){
-    printf("Bye");
- }
-
-
-
+//function definition
+void Indian(){
+    printf("Namaste! :) \n");
+}
+void French(){
+    printf("Bonjour! :)");
+}
